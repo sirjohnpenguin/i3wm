@@ -1,6 +1,7 @@
 #!/usr/bin/env python
  
 # based on cb-exit used in CrunchBang Linux <http://crunchbanglinux.org/>
+# fork from https://gist.github.com/jonyamo/5675359
 
 # To force this window to float, bind it like this in your ~/.i3/config:
 
