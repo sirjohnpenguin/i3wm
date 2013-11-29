@@ -26,13 +26,13 @@ floating_modifier $mod
 # start iceweasel
 #bindsym $mod+Shift+f exec firefox
 
-# autorun nm-applet
+# autorun nm-applet (NetworkManager)
 exec nm-applet
 
-# autorun clipit
+# autorun clipit (for copy&paste)
 exec clipit
 
-# autorun twitter
+# autorun chromium
 exec --no-startup-id i3-msg 'workspace 2: www; exec chromium;workspace 1: home;layout tabbed'
 
 
