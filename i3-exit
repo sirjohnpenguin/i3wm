@@ -1,6 +1,12 @@
 #!/usr/bin/env python
  
 # based on cb-exit used in CrunchBang Linux <http://crunchbanglinux.org/>
+
+# To force this window to float, bind it like this in your ~/.i3/config:
+
+# bindsym $mod+Shift+E exec ~/.i3/i3-exit
+# for_window [class="I3-exit" instance="i3-exit"] floating enable
+
  
 import pygtk
 pygtk.require('2.0')
